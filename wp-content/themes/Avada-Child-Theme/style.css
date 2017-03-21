@@ -1,0 +1,185 @@
+/*
+Theme Name: Avada Child for Redefine Marketing Ltd
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+
+/**** BUTTONS *****/
+.fusion-button .fusion-button-text {
+	color: #ffffff !important;
+	font-weight: 300 !important;
+}
+
+
+/* *** HEADER *****/
+.fusion-header-v2 .fusion-secondary-header {
+	border-top-color: #ffffff !important;
+}
+.fusion-contact-info {
+	text-align: right;
+}
+.fusion-contact-info a {
+	font-weight: 700;
+	font-size: 20px;
+}
+.fusion-contact-info span {
+	font-size: 20px;
+}
+/* *** FOOTER *****/
+.footer-menu-custom {
+	width:100%;
+	text-align: center;
+}
+.footer-menu-custom a{
+	padding: 5px 8px;
+	display: inline-block;
+}
+/* *** HOMEPAGE SLIDER *****/
+#sliders-container {
+	border-bottom: 3px solid #73bf00;
+}
+.fusion-title-sc-wrapper {
+    background-color: rgba(255,255,255, 0.95) !important;
+    padding:20px 50px 40px 50px  !important;
+    width:640px;
+
+}	    
+.fusion-title-sc-wrapper h1 {
+	font-weight: 700 !important;
+	font-size: 3em !important;
+	line-height: 1em !important;
+	color: #262626 !important;
+	}
+.fusion-title-sc-wrapper p {
+	font-weight: 400 !important;
+	font-size: 20px !important;
+	color: #262626 !important;
+	}
+.fusion-title-sc-wrapper .fusion-button-wrapper a {
+	margin-top: 30px;
+}
+
+/* *** HOMEPAGE SERVICE ICONS *****/
+.fusion-content-boxes.content-boxes-icon-on-top .heading .image svg {
+	margin-right: 0 !important;
+	height:80px;
+	width:80px;
+}
+.service-icon-boxes .fusion-column {
+	
+}
+.service-icon-boxes .fusion-column .link-area-box {
+	padding: 25px 20px 30px 20px;
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background-color: #ffffff !important;
+	min-height: 350px !important;
+}
+.service-icon-boxes .fusion-column .link-area-box h2 {
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	padding-top: 20px;
+	
+}
+.service-icon-boxes .fusion-column .link-area-box-hover {
+	background-color: #7B7B7B !important;
+	border-radius: 3px;
+}
+.service-icon-boxes .fusion-column .link-area-box-hover .heading .image svg rect,
+.service-icon-boxes .fusion-column .link-area-box-hover .heading .image svg path,
+.service-icon-boxes .fusion-column .link-area-box-hover .heading .image svg circle {
+	fill:#ffffff !important;
+}
+
+.fusion-content-boxes-1.service-icon-boxes .fusion-content-box-hover .link-area-box-hover .heading h2,
+.service-icon-boxes .fusion-column .link-area-box-hover p {
+	color: #ffffff !important;
+}
+.service-icon-boxes .fusion-column .content-container p{
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+/* *** CONTAINER LAYOUTS *****/
+.intro-section-title h2 {
+		font-size: 36px !important;
+		line-height: 1 !important;
+}
+.intro-section p  {
+		font-size: 18px;
+	}
+	
+	
+/* *** HOMEPAGE TESTIMONIAL *****/
+.testimonial-section blockquote q p {
+	font-weight: 900 !important;
+	font-style: normal !important;
+	position: relative;
+}
+.testimonial-section blockquote q p::before {
+	content: '';
+	background: url('assets/images/quotes-start.png') no-repeat;
+	width: 50px;
+	height:34px;
+	position: absolute;
+	top: -23px;
+    left: -63px;
+}
+.testimonial-section blockquote q p::after {
+	content: '';
+	background: url('assets/images/quotes-end.png') no-repeat;
+	width: 50px;
+	height:34px;
+	position: absolute;
+	bottom: -23px;
+    right: -63px;
+}
+/* *** MAIN CTA *****/
+.main-cta .fusion-column-wrapper h2 {
+	font-weight: 300 !important;
+	font-size: 36px !important;
+	margin-bottom: 5px !important;
+}
+.main-cta .fusion-column-wrapper a.number {
+	font-size: 36px !important;
+	text-decoration: none;
+	font-weight: 400 !important;
+}
+.flex-control-paging li a.flex-active {
+	background: #73bf00 !important;
+    background: rgba(115,191,0,1) !important;	
+}
+.flex-control-paging li a {
+	background: #bee584 !important;
+    background: rgba(190,229,132,1) !important;
+    box-shadow: none !important;
+}
+
+
+
+/* *** MEDIA QUERIES *****/
+@media only screen and (max-width: 800px) {
+	.testimonial-section blockquote q p {
+		margin-bottom: 40px !important;
+	}
+	.testimonial-section blockquote q p::before {
+		top: -50px;
+	    left: 0px;
+	}	
+	.testimonial-section blockquote q p::after {
+
+		bottom: -50px;
+	    right: 0px;
+	}
+	
+}
+
+
+
